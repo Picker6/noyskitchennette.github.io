@@ -1,0 +1,261 @@
+body {
+	background-image: url("Resources/Images/Background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.logo
+{
+	width: 60px;
+	height: 60px;
+	padding-left: 70px;
+	padding-top: 5px;
+}
+
+ul.navlink {
+	list-style-type: none;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -1px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #da7455;
+	font-family: Bahnschrift;
+	text-shadow: 2px 2px rgba(0,0,0,0.70);
+}
+
+li.navlink{
+	float: right;
+}
+li a.navlink{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+}
+
+li.navlink a:link, a:visited {
+	text-decoration: none;
+	vertical-align: baseline;
+	color:white;
+	padding: 25px;
+}
+
+li.navlink a:hover, a:active {
+	color:white;
+	background-color: #b15e45;
+}
+
+.Hlogo2 {
+	width: 510px;
+	height: 263px;
+}
+
+.Hmid {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	text-align: center;
+}
+
+.Hquote {
+	font-family: Century Gothic;
+	font-size: 45px;
+	color:white;
+}
+
+.AHis {
+	background: rgba(0,0,0,0.50);
+	border: 2px solid;
+	margin: auto;
+	font-family: Javanese Text;
+	font-size: 20px;
+	color: white;
+	text-align:center;
+	width: 80%;
+	padding: 20px;
+	border-radius: 25px;
+}
+	
+.ADesc {
+	background: rgba(0,0,0,0.50);
+	border: 2px solid;
+	font-family: Javanese Text;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.APicture {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.PMain {
+	display: block;
+	text-align: center;
+	border: 2px solid;
+	color: white;
+	font-family: Bahnschrift;
+	padding: 10px;
+	background-color: #da7455;
+	text-shadow: 2px 2px rgba(0,0,0,0.70);
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+ul.PProd {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li.PProd {
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+li a.PProd {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+li.PProd a:link, a:visited {
+	text-decoration: none;
+	vertical-align: baseline;
+	color:white;
+	padding: 20px;
+}
+
+li.PProd a:hover, a:active {
+	color:white;
+	background-color: #b15e45;
+}
+
+li.PSelect {
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+li a.PSelect {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+li.PSelect a:link, a:visited {
+	text-decoration: none;
+	vertical-align: baseline;
+	color:white;
+	padding: 20px;
+	background-color: #b15e45;
+	border: 1px solid black;
+}
+
+.PImg {
+	width: 30%;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.PBevImg {
+	width: 70%;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.PBevImg2 {
+	width: 33.39%;
+	margin: 10px;
+	border: 1px solid black;
+}
+	
+.CTitle {
+	background-color: #da7455;
+	width: 17%;
+	margin: auto;
+	font-family: Bahnschrift;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	border: 2px solid;
+	padding: 10px;
+	text-shadow: 2px 2px rgba(0,0,0,0.70);
+}
+
+.Center {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	text-align: center;
+}
+.CInfo {
+	display: inline-block;
+	text-align: center;
+	border: 2px solid;
+	color: white;
+	font-family: Bahnschrift;
+	width: 25%;
+	padding: 10px;
+	background-color: #da7455;
+	text-shadow: 2px 2px rgba(0,0,0,0.70);
+	vertical-align: top;
+	margin-right: 75px;
+}
+
+.Break {
+	border-bottom: 2px solid black;
+}
+.CTitle2 {
+	font-size: 24px;
+}
+
+.CDesc {
+	display: inline-block;
+	text-align: center;
+	border: 2px solid;
+	color: white;
+	font-family: Bahnschrift;
+	width: 40%;
+	padding: 10px;
+	background-color: #da7455;
+	text-shadow: 2px 2px rgba(0,0,0,0.70);
+	vertical-align: top;
+	margin-left: 75px;
+}
+
+a.CText {
+	text-decoration:none;
+}
+
+.CLocation {
+	display: block;
+	text-align: center;
+	border: 2px solid;
+	color: white;
+	font-family: Bahnschrift;
+	width: 80%;
+	background-color: #da7455;
+	text-shadow: 2px 2px rgba(0,0,0,0.70);
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 25px;
+}
